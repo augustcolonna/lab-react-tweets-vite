@@ -39,7 +39,7 @@ function App() {
     <div className='App'>
    
     {tweetsArray.map((props) => (
-      <Tweet props={props} />
+      <Tweet tweet={props} />
           ))}
     </div>
   )
