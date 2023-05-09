@@ -38,8 +38,8 @@ function App() {
   return (
     <div className='App'>
    
-    {tweetsArray.map((props) => (
-      <Tweet tweet={props} />
+    {tweetsArray.map((tweet) => (
+      <Tweet tweet={tweet} />
           ))}
     </div>
   )
